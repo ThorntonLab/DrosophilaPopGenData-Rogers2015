@@ -23,16 +23,16 @@ Theta
 We estimate Theta_pi, Theta_W, and Tajima's D for all SNPs in the D. yakuba and D. simulans genomes,
 removing sites with missing or ambiguous data as well as heterozygous sites. We calculate:
 
-* Window Midpoint
-* the number of sites with coverage sufficient to assay SNPs
-* Theta_pi,
-* Theta_W 
+* Window midpoint
+* Number of valid sites with coverage sufficient to assay SNPs
+* Theta_pi for the entire window
+* Theta_W for the entire window
 * Tajima's D 
 
-Estimates provided are for 5 kb windows moving in a 500 bp slide across the genome.   Positions in each file designate the window midpoint.  Population genetic parameters were calculated using libsequence module for C++ (Thornton, K. 2003).  We exclude all sites with missing data, ambiguous sequence, or heterozygous sites.
+Estimates provided are for 5 kb windows moving in a 500 bp slide across the genome.   Positions in each file designate the window midpoint  Population genetic parameters were calculated using libsequence module for C++ (Thornton, K. 2003).  We exclude all sites with missing data, ambiguous sequence, or heterozygous sites.  
 
 
 Cite
 ===============================
-Rogers et al. 2014  Tandem duplications and the limits of natural selection in Drosophila yakuba and Drosophila simulans.  http://arxiv.org/abs/1405.0518
+Rogers et al. 2014  Tandem duplications and the limits of natural selection in *Drosophila yakuba* and *Drosophila simulans*.  http://arxiv.org/abs/1405.0518
 
